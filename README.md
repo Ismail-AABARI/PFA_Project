@@ -34,8 +34,7 @@ Réalisation d'un système d'information décisionnel qui permet d'analyser les 
 - [TailWind](https://tailwindcss.com/)
 - [Talend](https://www.talend.com/fr/)
 - [Power BI](https://www.microsoft.com/fr-fr/power-platform/products/power-bi)
-- [BeautifulSoup library](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Python](https://www.python.org/)
+-  [Python](https://www.python.org/) [BeautifulSoup library](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 
 ## Installation et Execution de l'application web
