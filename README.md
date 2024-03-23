@@ -78,6 +78,6 @@ Par la suite passez sur le port 3000 sur le Browser.
 
 
 [ReactJS](https://react.dev/) est requis pour pouvoir exécuter cette application. C'est le front end de l'app. Pour installer tous les modules nécessaires au fonctionnement de notre jeu.
-
+Par la suite passez sur le port 5500 sur le Browser pour react.
 ### Date de sortie du JEU
 BI Commandes Stratégique sera disponible le "a definir" , Tenez vous prêt !
