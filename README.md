@@ -48,33 +48,12 @@ Réalisation d'un système d'information décisionnel qui permet d'analyser les 
 ## Installation et Execution de l'application web
 
 [Nodes.js](https://nodejs.org/en) est requis pour pouvoir exécuter cette application. C'est le back end de l'app. Pour installer tous les modules nécessaires au fonctionnement de notre jeu, exécutez la commande suivante :
-
+## Ceci permet de installer tous les dependances de notre projet
 ```bash
-  npm init 
+  npm i 
 ```
 
-### Installation des packages :
 
-  Installation de express
-```bash
-  npm install express 
-```
-  Installation de mongoDB
-```bash
-  npm i mongoose
-```
-  Installation de Multer pour upload des      images a la base de données
-```bash
-  npm install Multer
-```
-  Installation de bcrypt
-```bash
-  npm i bcrypt
-```
-  Installation de library JsonWebToken (JWT)
-```bash
-  npm i jsonwebtoken
-```
 Par la suite passez sur le port 3000 sur le Browser.
 
 
