@@ -38,7 +38,8 @@ Réalisation d'un système d'information décisionnel qui permet d'analyser les 
 -  [R studio](https://posit.co/download/rstudio-desktop/)
    ### Description :
            #### 1-  Le stack MERN (MongoDB, Express.js, React.js, Node.js) est utilisé pour développer l'application web et les API.
-           #### 2 - Talend est employé pour l'ETL, permettant l'extraction, la transformation et le chargement des données.
+           #### 2 - Talend est employé pour l'ETL, permettant l'extraction, la transformation et le chargement des données
+                  dans la base de données (MongoDB (noSQL)).
            #### 3 - Power BI est utilisé pour créer des visualisations interactives et des rapports basés sur les données.
            #### 4 - Python avec BeautifulSoup est utilisé pour le web scraping, permettant l'extraction de données à partir de  pages web.
            #### 5 - l'analyse de données avancée est effectuée avec R Studio, offrant des capacités de modélisation statistique et de visualisation enrichies pour des insights approfondis.
@@ -47,33 +48,12 @@ Réalisation d'un système d'information décisionnel qui permet d'analyser les 
 ## Installation et Execution de l'application web
 
 [Nodes.js](https://nodejs.org/en) est requis pour pouvoir exécuter cette application. C'est le back end de l'app. Pour installer tous les modules nécessaires au fonctionnement de notre jeu, exécutez la commande suivante :
-
+## Ceci permet de installer tous les dependances de notre projet
 ```bash
-  npm init 
+  npm i 
 ```
 
-### Installation des packages :
 
-  Installation de express
-```bash
-  npm install express 
-```
-  Installation de mongoDB
-```bash
-  npm i mongoose
-```
-  Installation de Multer pour upload des      images a la base de données
-```bash
-  npm install Multer
-```
-  Installation de bcrypt
-```bash
-  npm i bcrypt
-```
-  Installation de library JsonWebToken (JWT)
-```bash
-  npm i jsonwebtoken
-```
 Par la suite passez sur le port 3000 sur le Browser.
 
 
