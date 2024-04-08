@@ -1,0 +1,120 @@
+/* .hero-container {
+    background-image: url('https://www.pexels.com/fr-fr/video/le-soleil-eclairant-la-surface-de-la-terre-1851190/');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: burlywood;
+  }
+  
+  .hero-heading {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subheading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+
+   */
+   /* HeroSection.css */
+/*****************************************  HeroSection.css **************************************/
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+  
+  .hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    animation: fade-in 1.4s ease-in-out;
+  }
+  
+  .hero-heading {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    animation: slide-in-bottom 1.4s ease-in-out;
+  }
+  
+  .hero-subheading {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    animation: slide-in-bottom 1s ease-in-out;
+    animation-delay: 0.4s;
+  }
+  
+  .hero-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+    color: yellow;
+  }
+  
+  .link-style {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
