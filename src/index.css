@@ -1,0 +1,73 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.text-gradient {
+    background-image: linear-gradient(to right, #3490dc, #38a169);
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .bg-blue-gradient {
+    background: linear-gradient(
+      157.81deg,
+      #def9fa -43.27%,
+      #bef3f5 -21.24%,
+      #9dedf0 12.19%,
+      #7de7eb 29.82%,
+      #5ce1e6 51.94%,
+      #33bbcf 90.29%
+    );
+  }
+
+  .bg-black-gradient-2 {
+    background: linear-gradient(
+      -168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  }
+
+  @layer base{
+    body{
+      background-color: #14161b;
+    }
+  }
+
+  .slick-slide > div{
+    margin: 0 20px;
+  }
+
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-left {
+    animation: slideInFromLeft 0.5s ease-out;
+  }
+  
+  .animate-right {
+    animation: slideInFromRight 0.5s ease-out;
+  }
+  

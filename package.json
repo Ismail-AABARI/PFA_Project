@@ -1,19 +1,30 @@
 {
-  "name": "pfa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "testjs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.2",
-    "express": "^4.19.0",
-    "express-session": "^1.18.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.2.2"
+    "react": "^18.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.2.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
   }
 }
