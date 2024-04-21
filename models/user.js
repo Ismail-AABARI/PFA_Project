@@ -8,6 +8,10 @@ const User = mongoose.model('User',{
 
     password:{
         type:String
+    },
+
+    verified:{
+        type:Boolean
     }
 
 
