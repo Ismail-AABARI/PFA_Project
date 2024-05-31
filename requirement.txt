@@ -1,0 +1,11 @@
+npm init
+npm install express 
+npm install mongoose
+npm install bcrypt
+npm install jsonwebtoken
+npm install multer
+npm install cors
+npm install axios
+npm install nodemailer
+npm install uuid
+npm install dotenv
